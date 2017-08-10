@@ -1,0 +1,8 @@
+# Indicate which working files should be ignored and not committed to the repository
+#
+# Ignore vi editor swap files
+*.swp
+*.swo
+
+# Ignore Microsoft Office temporary files
+~$*
