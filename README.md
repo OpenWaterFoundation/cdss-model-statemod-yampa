@@ -17,7 +17,27 @@ Dynamic files that can be created from the above source files or are created by 
 * StateMod input files created by DMI programs.
 * StateMod output files, such as reports and binary files.
 
-## Integration with other CDSS Models ##
+Specific folders in the repository include the following.
+It is convention that files are written into a data component folder and also
+written to the main `StateMod` folder.
+The latter is used to run the model.
+
+* [Diversions]() - files related to direct diversions
+* [DocsSW]() - Yampa River Basin Water Resources Planning Model User's Manual as PDF
+* [Instream]() - files related to instream flow rights
+* [Network]() - files related to model network
+* [Reservoirs]() - files related to reservoirs
+* [StateMod]() - folder where all generated files are placed as the complete dataset
+* [StreamSW]() - files related to surface water streams
+
+## Compatibility and Integration with other CDSS Models ##
+
+The current dataset was created using the following software versions (versions assumed based on the file headers of the downloaded dataset).  It is generally safe to use later versions.
+
+* HydroBase - ?
+* StateDMI - ?
+* TSTool - ?
+* StateMod - ?
 
 Additional information may need to be provided to explain how this StateMod dataset integrates with other CDSS models such as the StateCU consumptive use model.
 Currently the focus is simply to demonstrate how the StateMod dataset can be maintained in GitHub while allowing data processing and StateMod runs.
@@ -37,3 +57,7 @@ Currently there is no license for the dataset.  This topic is being discussed as
 CDSS is a program within the [Colorado Water Conservation Board (CWCB)](http://cwcb.state.co.us).  The primary contact for CDSS is [Andy Moore](mailto:andy.moore@state.co.us).
 
 The Yampa dataset is maintained by [Wilson Water Group](http://www.wilsonwatergroup.com/) under contract with the State of Colorado and others.
+
+## Release Notes ##
+
+[2017-08-08] Initialize Git/GitHub repository using ym2015 dataset from CDSS website.
