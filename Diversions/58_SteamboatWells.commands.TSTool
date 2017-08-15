@@ -31,7 +31,9 @@ SetConstant(TSList=AllMatchingTSID,TSID="5805066",ConstantValue=0,SetEnd="09/198
 Free(TSList=AllMatchingTSID,TSID="5805066.DWR.DivTotal.Month")
 #
 # Read in values for Steamboat Well A and Mt. Werner Wells G and H
-ReadTableFromExcel(TableID="FromMtW",InputFile="C:\Google Drive\CDSS\ym2015\Diversions\2003-2013 Yampa Well Usage.xlsx",Worksheet="For_TSTool",ExcelAddress="B3:F135",ExcelColumnNames=FirstRowInRange,ExcelDateTimeColumns="Date")
+# smalers change to use input data in a folder 8/14/17
+# ReadTableFromExcel(TableID="FromMtW",InputFile="C:\Google Drive\CDSS\ym2015\Diversions\2003-2013 Yampa Well Usage.xlsx",Worksheet="For_TSTool",ExcelAddress="B3:F135",ExcelColumnNames=FirstRowInRange,ExcelDateTimeColumns="Date")
+ReadTableFromExcel(TableID="FromMtW",InputFile="58_SteamboatWells.data\2003-2013 Yampa Well Usage.xlsx",Worksheet="For_TSTool",ExcelAddress="B3:F135",ExcelColumnNames=FirstRowInRange,ExcelDateTimeColumns="Date")
 TableToTimeSeries(TableID="FromMtW",DateTimeColumn="Date",LocationID="5805055",ValueColumn="Well_A_af",DataSource="MtW",Interval=Month,Units="ACFT",Alias="%L-Recent")
 TableToTimeSeries(TableID="FromMtW",DateTimeColumn="Date",LocationID="5805059_D",ValueColumn="WellG&H_af",DataSource="MtW",Interval=Month,Units="ACFT",Alias="%L-Recent")
 FillHistMonthAverage(TSList=AllMatchingTSID,TSID="5805055-Recent",FillStart="10/1974")
