@@ -34,7 +34,7 @@ The latter is used to run the model.
 
 The current dataset was created using the following software versions (versions assumed based on the file headers of the downloaded dataset).  It is generally safe to use later versions.
 
-* HydroBase - ?
+* HydroBase - 20160802
 * StateDMI - ?
 * TSTool - ?
 * StateMod - ?

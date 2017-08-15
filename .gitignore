@@ -14,3 +14,6 @@
 ~$*
 
 # Ignore all StateMod binary and report output files
+# - these files are derived products created by processing input files
+
+StateMod/*.rin
