@@ -16,4 +16,21 @@
 # Ignore all StateMod binary and report output files
 # - these files are derived products created by processing input files
 
+Diversions/58_SteamboatWells_B.stm
+Diversions/58_SteamboatWells_H.stm
+Diversions/5402068.stm
+Diversions/Future_Demands.stm
+Diversions/5700512_Hist.stm
+Diversions/M&I_Baseline.stm
+Diversions/WYD.stm
+
+Diversions/ym2015_dds.dds
+Diversions/ym2015_ddh.dds
+
 StateMod/*.rin
+StateMod/ym2015.ddh
+StateMod/ym2015.ddr
+StateMod/ym2045.ddr
+StateMod/ym2015.dds
+StateMod/ym2015B.ddm
+StateMod/ym2015B.iwr

@@ -18,25 +18,25 @@ Dynamic files that can be created from the above source files or are created by 
 * StateMod output files, such as reports and binary files.
 
 Specific folders in the repository include the following.
-It is convention that files are written into a data component folder and also
+It is convention that files may be written into a data component folder and also
 written to the main `StateMod` folder.
-The latter is used to run the model.
+The latter is used to run the model.  The components are listed alphabetically.
 
-* [Diversions]() - files related to direct diversions
-* [DocsSW]() - Yampa River Basin Water Resources Planning Model User's Manual as PDF
+* [Diversions](https://github.com/OpenWaterFoundation/cdss-model-statemod-yampa/tree/master/Diversions) - files related to direct diversions
+* [DocsSW](https://github.com/OpenWaterFoundation/cdss-model-statemod-yampa/tree/master/DocsSW) - Yampa River Basin Water Resources Planning Model User's Manual as PDF
 * [Instream]() - files related to instream flow rights
-* [Network]() - files related to model network
-* [Reservoirs]() - files related to reservoirs
-* [StateMod]() - folder where all generated files are placed as the complete dataset
-* [StreamSW]() - files related to surface water streams
+* [Network](https://github.com/OpenWaterFoundation/cdss-model-statemod-yampa/tree/master/Network) - files related to model network
+* [Reservoirs](https://github.com/OpenWaterFoundation/cdss-model-statemod-yampa/tree/master/Reservoirs) - files related to reservoirs
+* [StateMod](https://github.com/OpenWaterFoundation/cdss-model-statemod-yampa/tree/master/StateMod) - folder where all generated files are placed as the complete dataset
+* [StreamSW](https://github.com/OpenWaterFoundation/cdss-model-statemod-yampa/tree/master/StreamSW) - files related to surface water streams
 
 ## Compatibility and Integration with other CDSS Models ##
 
 The current dataset was created using the following software versions (versions assumed based on the file headers of the downloaded dataset).  It is generally safe to use later versions.
 
 * HydroBase - 20160802
-* StateDMI - ?
-* TSTool - ?
+* StateDMI - 4.06.00+
+* TSTool - 12.00.00+
 * StateMod - ?
 
 Additional information may need to be provided to explain how this StateMod dataset integrates with other CDSS models such as the StateCU consumptive use model.
@@ -44,9 +44,10 @@ Currently the focus is simply to demonstrate how the StateMod dataset can be mai
 
 ## Using the Dataset ##
 
-The following is a short guide on how to use the dataset:
+The following is a short guide on how to use the dataset (in the future a script may be added to run all steps):
 
-1. Need to complete this as the repository is initialized.
+1. Use the GitHub feature to download a zip file, or if Git client software is installed, clone the repository:  `git clone https://github.com/OpenWaterFoundation/cdss-model-statemod-yampa.git`
+2. Use StateDMI to run `Network/rin.commands.StateDMI`  
 
 ## License ##
 
@@ -57,6 +58,8 @@ Currently there is no license for the dataset.  This topic is being discussed as
 CDSS is a program within the [Colorado Water Conservation Board (CWCB)](http://cwcb.state.co.us).  The primary contact for CDSS is [Andy Moore](mailto:andy.moore@state.co.us).
 
 The Yampa dataset is maintained by [Wilson Water Group](http://www.wilsonwatergroup.com/) under contract with the State of Colorado and others.
+
+The Open Water Foundation has created this repository as a test of using GitHub for version control of a dataset and is coordinating with the CWCB and WWG to evaluate if the approach should be used by modelers.
 
 ## Release Notes ##
 
