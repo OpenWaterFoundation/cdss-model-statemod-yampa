@@ -5,3 +5,5 @@ DMI command files in other folders are used to process the data and copy generat
 
 * `ym2015.net` (from Network) - XML network compatible with StateDMI and StateMod GUI,
 which allows interactive editing and must be processed into more basic form needed by StateMod
+
+* Need to list all the files...

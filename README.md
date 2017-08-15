@@ -47,7 +47,8 @@ Currently the focus is simply to demonstrate how the StateMod dataset can be mai
 The following is a short guide on how to use the dataset (in the future a script may be added to run all steps):
 
 1. Use the GitHub feature to download a zip file, or if Git client software is installed, clone the repository:  `git clone https://github.com/OpenWaterFoundation/cdss-model-statemod-yampa.git`
-2. Use StateDMI to run `Network/rin.commands.StateDMI`  
+2. Use StateDMI to run `Network/rin.commands.StateDMI`
+3. Need to finish documenting steps and also indicate how the StateCU dataset is integrated...
 
 ## License ##
 
