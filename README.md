@@ -75,9 +75,9 @@ Currently there is no license for the dataset.  This topic is being discussed as
 
 CDSS is a program within the [Colorado Water Conservation Board (CWCB)](http://cwcb.state.co.us).  The primary contact for CDSS is [Andy Moore](mailto:andy.moore@state.co.us).
 
-The Yampa dataset is maintained by [Wilson Water Group](http://www.wilsonwatergroup.com/) under contract with the State of Colorado and others.
+The Yampa dataset is maintained by [Wilson Water Group](http://www.wilsonwatergroup.com/) under contract with the State of Colorado and others.  Contact [Lisa Wade](mailto:lisa.wade@wilsonwatergroup.com) with questions.
 
-The Open Water Foundation ([Steve Malers](mailto:steve.malers@openwaterfoundation.org) has created this repository as a test of using GitHub for version control of a dataset and is coordinating with the CWCB and WWG to evaluate if the approach should be used by modelers.
+The Open Water Foundation has created this repository as a test of using GitHub for version control of a dataset and is coordinating with the CWCB and WWG to evaluate if the approach should be used by modelers.  Contact [Steve Malers](mailto:steve.malers@openwaterfoundation.org) with questions.
 
 <a name="release-notes"></a>
 ## Release Notes ##
