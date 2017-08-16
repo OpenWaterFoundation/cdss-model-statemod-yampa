@@ -48,11 +48,11 @@ Stream stations include historical data and estimated natural flows.
 
 The StateCU model estimates consumptive use in a separate model dataset.  The following files are copied from that dataset to this folder for use in the StateMod model:
 
-* `ym2015.str` (from StateCU model) - consumptive use locations
-* `ym2015.ipy` (from StateCU model) - irrigation practice time series, yearly
-* `ym2015B.ipy` (from StateCU model) - baseline irrigation practice time series, yearly
-* `ym2015.iwr` (from StateCU model) - irrigation water requirement time series, monthly
-* `ym2015B.iwr` (from StateCU model) - baseline irrigation water requirement time series, monthly
+* `ym2015.str` (copied from StateCU model) - consumptive use locations
+* `ym2015.ipy` (copied from StateCU model) - irrigation practice time series, yearly
+* `ym2015B.ipy` (copied from StateCU model) - baseline irrigation practice time series, yearly
+* `ym2015.iwr` (copied from StateCU model) - irrigation water requirement time series, monthly
+* `ym2015B.iwr` (copied from StateCU model) - baseline irrigation water requirement time series, monthly
 
 ## Diversions ##
 

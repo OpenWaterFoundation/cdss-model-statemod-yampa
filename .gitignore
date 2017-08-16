@@ -13,8 +13,12 @@
 
 ~$*
 
-# Ignore all StateMod binary and report output files
-# - these files are derived products created by processing input files
+# Ignore executable files, such as StateMod executables in "bin" folder
+
+*.exe
+
+# Ignore all input files that are dynamically created
+# - only save in the repository the source files used to generate model input files
 
 Diversions/58_SteamboatWells_B.stm
 Diversions/58_SteamboatWells_H.stm
@@ -48,3 +52,38 @@ StateMod/ym2015.rib
 StateMod/ym2015B.tar
 StateMod/ym2015H.tar
 StateMod/ym2015H2.tar
+
+# Ignore all StateMod binary and report output files
+# - these files are created by StateMod
+
+*.chk
+*.tmp
+fort.*
+fort.*
+*.b43
+*.b44
+*.b45
+*.b47
+*.b67
+*.b68
+*.xbe
+*.xbg
+*.xbi
+*.xbm
+*.xca
+*.xcb
+*.xcd
+*.xci
+*.xcw
+*.xdd
+*.xgn
+*.xir
+*.xop
+*.xou
+*.xpl
+*.xre
+*.xrh
+*.xri
+*.xss
+*.xtb
+*.xwr
